@@ -1,0 +1,23 @@
+name: messenger_flutter
+description: Flutter messenger client (mock backend).
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0
+  http: ^0.15.0
+  web_socket_channel: ^2.2.0
+  uuid: ^3.0.6
+  flutter_dotenv: ^5.0.2
+  flutter_webrtc: ^0.9.14
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

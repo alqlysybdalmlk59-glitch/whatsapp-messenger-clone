@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  backend:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - JWT_SECRET=dev_secret_change_me
+    # In this mock setup we do not require Postgres/Redis/MinIO.
+    # Later add services: postgres, redis, minio, coturn
